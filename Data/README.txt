@@ -1,0 +1,1 @@
+Aircades : This folder contains the data that you saved. If you accidentally deleted this folder dont worry Aircades will create another folder.
