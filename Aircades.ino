@@ -343,14 +343,14 @@ void loop() {
 
   // Via by Observation and Analysis. The pressure has been set via Observation of pressure and the weather allowing
   // AIRCADES to predict the weather.
-  if ((pressure<1006.59)&&(pressure>1006.51)){
+  if ((pressure<1006.51)&&(pressure>1006.60)){
   Serial.print("Cloudy");
   }
   else if((pressure<1006.29)&&(pressure>1005.20))
   {
   Serial.print("Rain");
   }
-  else if((pressure>1006.60)&&(pressure<1050))
+  else if((pressure>1006.61)&&(pressure<1050))
   {
   Serial.print("Clear Sky");
   }
